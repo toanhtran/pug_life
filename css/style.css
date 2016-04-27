@@ -1,0 +1,78 @@
+/* Custom Stylesheet */
+
+@import url(https://fonts.googleapis.com/css?family=Playball);
+
+/* teal = 818E7D*/
+
+
+/* softpink = E2B9BD*/
+
+
+/*cement = 7E8387*/
+
+nav ul a,
+nav .brand-logo {
+  color: #818E7D;
+  font-size: 12 rem;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #818E7D;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: 720px;
+  color: rgba(255, 255, 255, .9);
+}
+
+.parallax-container .section {
+  width: 100%;
+}
+
+@media only screen and (max-width: 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 80%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+#footer {
+  color: #E2B9BD;
+}
+
+.main_header {
+  font-family: 'Playball', cursive;
+  font-weight: bold;
+  font-size: 9em;
+}
+
+#footer_title {
+  font-family: 'Playball', cursive;
+}
